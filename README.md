@@ -2,70 +2,85 @@
 
 ## Overview
 
-This SQL project focuses on analyzing data from a music store database. The project includes a set of SQL queries that answer various questions related to the store's sales, customers, artists, and genres.
+This SQL project involves analyzing a music store database using Postgre SQL and PgAdmin4. The project comprises a set of SQL queries that delve into various aspects of the store, including sales, customer behavior, artist statistics, and genre preferences.
 
 ## Table of Contents
 
-- [Questions Addressed](#questions-addressed)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Database and Tools](#database-and-tools)
+- [1. Questions Addressed](#1-questions-addressed)
+  - [1.1 Easy Level](#11-easy-level)
+  - [1.2 Moderate Level](#12-moderate-level)
+  - [1.3 Advanced Level](#13-advanced-level)
+- [2. Project Structure](#2-project-structure)
+  - [2.1 Database Schema](#21-database-schema)
+- [3. Getting Started](#3-getting-started)
+- [4. Database and Tools](#4-database-and-tools)
 
-## Questions Addressed
+## 1. Questions Addressed
 
-### Easy Level
+### 1.1 Easy Level
 
 1. **Senior Most Employee by Job Title**
-   - Query to find the senior most employee based on job title.
+   - Identifying the senior most employee based on job title.
 
 2. **Countries with Most Invoices**
-   - Query to identify countries with the highest number of invoices.
+   - Determining countries with the highest number of invoices.
 
 3. **Top 3 Values of Total Invoice**
-   - Query to retrieve the top 3 values of total invoices.
+   - Retrieving the top 3 values of total invoices.
 
 4. **City with the Best Customers**
-   - Query to determine the city with the highest sum of invoice totals.
+   - Identifying the city with the highest sum of invoice totals.
 
 5. **Best Customer**
-   - Query to find the customer who has spent the most money.
+   - Finding the customer who has spent the most money.
 
-### Moderate Level
+### 1.2 Moderate Level
 
 1. **Rock Music Listeners**
-   - Query to return email, first name, last name, and genre of all rock music listeners.
+   - Returning email, first name, last name, and genre of all rock music listeners.
 
 2. **Top 10 Rock Bands**
-   - Query to invite the top 10 rock bands based on the total track count.
+   - Inviting the top 10 rock bands based on the total track count.
 
 3. **Tracks Longer Than Average**
-   - Query to return track names with a song length longer than the average.
+   - Returning track names with a song length longer than the average.
 
-### Advanced Level
+### 1.3 Advanced Level
 
 1. **Amount Spent by Each Customer on Artists**
-   - Query to return customer name, artist name, and total amount spent.
+   - Returning customer name, artist name, and total amount spent.
 
 2. **Most Popular Music Genre for Each Country**
-   - Query to determine the most popular music genre for each country.
+   - Determining the most popular music genre for each country.
 
 3. **Top Customer for Each Country**
-   - Query to find the customer that has spent the most on music for each country.
+   - Finding the customer that has spent the most on music for each country.
 
-## Project Structure
+## 2. Project Structure
 
-- `queries.sql`: Contains all the SQL queries organized by difficulty levels.
-- `README.md`: Documentation providing an overview of the project and its structure.
+- `queries.sql`: SQL file containing all the queries organized by difficulty levels.
+- `Music_Store_database.sql`: SQL file with the database schema.
+- `MusicDatabaseSchema.png`: Visualization of the database schema.
+- `music store data.zip`: Zip file containing all the CSV files for the music store data.
 
-## Database and Tools
-* Postgre SQL
-* PgAdmin4
+### 2.1 Database Schema
 
-## Getting Started
+![image](https://github.com/hiteshchinu/SQL_Project_Music_Store_Analysis/assets/82470023/7946765f-adaf-4148-928e-6ac848409698)
 
-1. Clone the repository:
+
+## 3. Getting Started
+
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/hiteshchinu/SQL_Project_Music_Store_Analysis.git
+2. **Database Setup:**
 
+   - Execute the SQL queries in PgAdmin4 or your preferred database management tool.
+   - Use Music_Store_database.sql to set up the database schema.
 
-![image](https://github.com/hiteshchinu/SQL_Project_Music_Store_Analysis/assets/82470023/55d3b846-d3f0-4822-aed1-ed135cb66f70)
+3. **Explore the Queries:**
+   - Open queries.sql to explore and run the SQL queries.
+  
+## 4. Database and Tools
+   - Database: Postgre SQL
+   - Database Management Tool: PgAdmin4
